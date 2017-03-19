@@ -21,5 +21,15 @@ PostCSS plugin. Generate base64 images in CSS
 ## Usage
 
 ```js
-postcss([ require('postcss-data-uri') ])
+// Gulpfile.js
+gulp.task('process_css', function() {
+    var postcss = require('gulp-postcss'),
+        datauri = require('postcss-data-uri');
+
+    return gulp.src('*.css')
+        .pipe(postcss([
+            datauri
+        ]))
+        .pipe(gulp.dest('out/'));
+});
 ```
