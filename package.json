@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Krzysztof Słowik <slowik.krzysiek+github@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "repository": "slowikk/postcss-data-uri",
   "bugs": {
     "url": "https://github.com/slowikk/postcss-data-uri/issues"
