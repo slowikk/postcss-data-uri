@@ -11,10 +11,10 @@ PostCSS plugin. Generate base64 images in CSS
 ```
 ```css
 .foo {
-    background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+    background-image: url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);
 }
 .bar {
-    background: #fff url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat center center
+    background: #fff url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=) no-repeat center center
 }
 ```
 
