@@ -1,6 +1,6 @@
 {
   "name": "postcss-data-uri",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "PostCSS plugin. Generates inline base64 images in CSS.",
   "keywords": [
     "postcss",
@@ -9,7 +9,7 @@
     "data-uri",
     "image"
   ],
-  "main": "postcss-data-uri.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
