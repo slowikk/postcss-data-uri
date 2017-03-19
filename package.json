@@ -1,17 +1,32 @@
 {
   "name": "postcss-data-uri",
-  "version": "0.1.0",
-  "description": "Postcss plugin. Generates inline base64 images in css.",
+  "version": "0.1.1",
+  "description": "PostCSS plugin. Generates inline base64 images in CSS.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "data-uri",
+    "image"
+  ],
   "main": "postcss-data-uri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Krzysztof Słowik <slowik.krzysiek+github@gmail.com>",
   "license": "ISC",
+  "repository": "slowikk/postcss-data-uri",
+  "bugs": {
+    "url": "https://github.com/slowikk/postcss-data-uri/issues"
+  },
+  "homepage": "https://github.com/slowikk/postcss-data-uri",
+  "dependencies": {
+      "mime": "1.3.4",
+      "postcss": "5.2.16"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.3.0",
-    "gulp-sourcemaps": "^2.4.1",
-    "mime": "^1.3.4"
+    "gulp-sourcemaps": "^2.4.1"
   }
 }
