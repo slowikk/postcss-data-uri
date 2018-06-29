@@ -11,7 +11,7 @@ module.exports = postcss.plugin('postcss-data-uri', function (opts) {
             if (rePattern.test(decl.value)) {
                 path = decl.value.match(rePattern)[1];
                 if (fs.existsSync(path)) {
-                    decl.value = decl.value.replace(rePattern, 'url(data:' + mime.lookup(path) + ';base64,' + new Buffer(fs.readFileSync(path)).toString('base64') + ')');
+                    decl.value = decl.value.replace(rePattern, 'url(data:' + mime.lookup(path) + ';base64,' + fs.readFileSync(path, 'base64') + ')');
                 } else {
                     console.log('Image ',path,' not found.')
                 }
